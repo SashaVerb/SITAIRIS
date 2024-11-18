@@ -12,6 +12,7 @@ public class Test {
         products.add(new Product("Smartphone", 2.99f));
         products.add(new Product("Table", 0.99f));
         products.add(new Product("Lightbulb", 6.99f));
+	products.add(new Product("Computer mouse", 11.99f));
 
         for (Product product : products) {
             product.printInfo();
