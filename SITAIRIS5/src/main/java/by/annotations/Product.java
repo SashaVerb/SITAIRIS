@@ -12,7 +12,7 @@ public class Product {
         this.price = price;
     }
 
-    @Color(color = ANSIColor.CYAN)
+    @Color(color = ANSIColor.BLUE)
     public void printName() {
         System.out.print(name);
     }
